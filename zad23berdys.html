@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zadanie 20 - Formatowanie z ID</title>
+    <style>
+        /* Formatowanie dla Bartosza Berdysa */
+        /* Dane: urodzony 25.12, but 45, nazwisko: Berdys (6 liter) */
+        
+        body {
+            margin: 20px;
+            line-height: 1.6;
+        }
+
+        /* 1. Pogrubienie */
+        p#pogrubienie_berdys {
+            font-size: 31px; /* 25 + 6 liter */
+            color: #965fd4; /* 25+125=150(96), 45+50=95(5f), 12+200=212(d4) */
+            font-weight: bold;
+            margin: 15px 0;
+        }
+
+        /* 2. Pochylona */
+        p#pochylona_berdys {
+            font-size: 36pt; /* 30 + 6 liter */
+            color: #fac370; /* 25+225=250(fa), 45+150=195(c3), 12+100=112(70) */
+            font-style: italic;
+            margin: 15px 0;
+        }
+
+        /* 3. Indeks górny */
+        p#index_gorny_berdys {
+            font-size: 1.1cm; /* 0.5 + 0.1*6 */
+            color: #aa9120; /* 25+145=170(aa), 45+100=145(91), 12+20=32(20) */
+            vertical-align: super;
+            margin: 15px 0;
+        }
+
+        /* 4. Indeks dolny */
+        p#index_dolny_berdys {
+            font-size: 1.7cm; /* 0.5 + 0.2*6 */
+            color: rgb(29%, 98%, 93%); /* 25+45=70(29%), 45+200=245(98%), 12+220=232(93%) */
+            vertical-align: sub;
+            margin: 15px 0;
+        }
+
+        /* 5. Mono */
+        p#mono_berdys {
+            font-size: 41px; /* 35 + 6 liter */
+            color: #2abd6c; /* 25+17=42(2a), 45+180=225(bd), 12+100=112(6c) */
+            font-family: monospace;
+            margin: 15px 0;
+        }
+
+        /* 6. Powiększenie */
+        p#powiekszenie_berdys {
+            color: #642d96; /* 25+75=100(64), 45+20=65(2d), 12+150=162(96) */
+            transform: scale(1.25);
+            transform-origin: left;
+            display: block;
+            margin: 25px 0;
+        }
+
+        /* 7. Pomniejszenie */
+        p#pomniejszenie_berdys {
+            color: rgb(80%, 83%, 31%); /* 25+175=200(80%), 45+120=165(83%), 12+50=62(31%) */
+            transform: scale(0.75);
+            transform-origin: left;
+            display: block;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Bartosz Berdys -->
+    <p id="pogrubienie_berdys">Bartosz Berdys<br>
+    Dlaczego programiści mylą Boże Narodzenie z Halloween?<br>
+    Bo 25 Dec = 31 Oct</p>
+
+    <p id="pochylona_berdys">Bartosz Berdys<br>
+    Jak nazywa się programista, który nie pije kawy?<br>
+    - Nie istnieje.</p>
+
+    <p id="index_gorny_berdys">Bartosz Berdys<br>
+    Ile programistów potrzeba do wymiany żarówki?<br>
+    - Żadnego, to problem hardware'owy.</p>
+
+    <p id="index_dolny_berdys">Bartosz Berdys<br>
+    Dlaczego programista przeszedł na dietę?<br>
+    - Bo jego kod miał za dużo "bugów".</p>
+
+    <p id="mono_berdys">Bartosz Berdys<br>
+    Co mówi programista na łożu śmierci?<br>
+    - "Działało na mojej maszynie..."</p>
+
+    <p id="powiekszenie_berdys">Bartosz Berdys<br>
+    Jak rozpoznać ekstrawertycznego programistę?<br>
+    - Patrzy na twoje buty, a nie swoje, gdy z tobą rozmawia.</p>
+
+    <p id="pomniejszenie_berdys">Bartosz Berdys<br>
+    Dlaczego JavaScript i Java żyją w separacji?<br>
+    - Bo JavaScript to skryptowy dzieciak, a Java to poważny biznes.</p>
+</body>
+</html>
+<!-- Bartosz Berdys -->

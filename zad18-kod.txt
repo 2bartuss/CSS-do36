@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Układ bloków DIV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Blok DIV 1 -->
+<div style="
+    background-color: #FF0000;  /* kolor tła 2 (czerwony) */
+    width: 982px;             /* 980 + 2 */
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #000;
+">
+    <span style="
+        color: #0000FF;        /* kolor tekstu 5 (niebieski) */
+        font-size: 1.5cm;
+        font-weight: bold;
+    ">
+        Znacznik DIV (blok 1)-->Berdys
+    </span>
+    <br/>
+    <span style="font-size: 1.1cm;">
+        <b><u>Element blokowy (DIV)</u></b> jest elementem blokowym może zawierać wewnątrz siebie zwykły tekst, jak również inne elementy blokowe.
+    </span>
+    <ul style="
+        color: #FF00FF;        /* kolor wyliczenia 7 (różowy) */
+        font-size: 0.7cm;
+        list-style-type: square;
+    ">
+        <li>Z div'a powinno się korzystać kiedy potrzebujemy wyodrębnić poszczególne bloki w układzie dokumentu</li>
+        <li>Służy do utworzenia sekcji (bloku) w pliku HTML w celu ich sformatowania za pomocą CSS</li>
+    </ul>
+</div>
+
+<!-- Blok DIV 2 -->
+<div style="
+    background-color: #00FFFF;  /* kolor tła 6 (cyjan) */
+    width: 1082px;             /* 1080 + 2 */
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #000;
+">
+    <span style="
+        color: #FF0000;        /* kolor tekstu 2 (czerwony) */
+        font-size: 1cm;
+        font-weight: bold;
+    ">
+        Znacznik SPAN (blok 2)-->14.04.2025 18:30
+    </span>
+    <br/>
+    <span style="font-size: 0.8cm;">
+        <b><u>Elementy wyświetlane w linii (SPAN)</u></b> jest elementem liniowym nie mogą zawierać elementów blokowych.
+    </span>
+    <ul style="
+        color: #FF00FF;        /* kolor wyliczenia 7 (różowy) */
+        font-size: 0.8cm;
+        list-style-type: circle;
+    ">
+        <li>Jeśli chcemy w paragrafie część tekstu wyróżnić czerwonym kolorem, używamy SPAN</li>
+        <li>Wewnątrz DIV można wpisać również SPAN</li>
+    </ul>
+</div>
+
+<!-- Blok DIV 3 -->
+<div style="
+    background-color: #0000FF;  /* kolor tła 5 (niebieski) */
+    width: 1182px;             /* 1180 + 2 */
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #000;
+">
+    <span style="
+        color: #FF0000;        /* kolor tekstu 2 (czerwony) */
+        font-size: 0.9cm;
+        font-weight: bold;
+    ">
+        Różnica między znacznikami DIV i SPAN (blok 3)-->2G
+    </span>
+    <br/>
+    <span style="font-size: 0.7cm;">
+        <b><u>Spanem wyodrębniamy elementy liniowe</u></b> a <b><u>divem blokowe</u></b> elementy.
+    </span>
+    <ul style="
+        color: #00FFFF;        /* kolor wyliczenia 6 (cyjan) */
+        font-size: 0.7cm;
+        list-style-type: square;
+    ">
+        <li>Domyślnie DIV jest wyświetlany w bloku</li>
+        <li>Natomiast SPAN w linii</li>
+    </ul>
+</div>
+
+</body>
+</html>
